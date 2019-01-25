@@ -15,20 +15,16 @@ body{
     margin-left:25px;
 }
 
-.navbar{
-    background-color: #fafafa;
-}
-
 .form{
     position: absolute;
     background: #fff;
     display: flex;
     width: 632px;
     height: 44px;
-    margin-left: 145px;
+    margin-left: 142px;
     margin-top: 12px;
     font-size: 16px;
-    box-shadow: 1px 1px 5px lightgray;
+    box-shadow: none;
     border-radius: 24px;
     border: 1px solid #dfe1e5;
 }
@@ -44,7 +40,6 @@ body{
 .microphone, .search{
     position: relative;
     float: left;
-    
     cursor: pointer;
 }
 
@@ -61,3 +56,27 @@ body{
     width: 18px;
     margin-top: 25px;
 }
+
+.rightLinks{
+    position: relative;
+    display: block;
+    text-align: right;
+}
+
+.icon{
+    height: 35px;
+    width: 35px;
+   }
+
+.notification{
+    height: 35px;
+    width: 35px;
+   }
+
+.signin{
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+}
+
+

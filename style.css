@@ -154,3 +154,59 @@ h3{
     margin-bottom: 45px;
 }
 
+.google{
+    position: relative;
+    left: 300px;
+    cursor: pointer;
+}
+
+.g{
+    background: url(https://www.google.com/images/nav_logo242.png) no-repeat;
+    background-position: -24px 0;
+    width: 25px;
+    height: 40px;
+}
+
+.redO {
+    background: url(https://www.google.com/images/nav_logo242.png) no-repeat;
+    width: 19px;
+    height: 40px;
+    background-position: -54px 0;
+    padding: 0px;
+}
+
+.o {
+    background: url(https://www.google.com/images/nav_logo242.png) no-repeat;
+    background-position: -75px 0;
+    width: 19px;
+    height: 40px;
+    padding: 0px;
+}
+
+.gle {
+    background: url(https://www.google.com/images/nav_logo242.png) no-repeat;
+    width: 48px;
+    height: 40px;
+    background-position: -96px 0;
+}
+
+.one{
+    margin-left: 30px;
+    color: black !important;
+}
+
+.number, .nextNext{
+    padding-left: 7px;
+    font-size: small;
+    color: #4285f4;
+}
+
+.next{
+    background: url(https://www.google.com/images/nav_logo242.png) no-repeat;
+    background-position: -153px 0;
+    width: 19px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+}
+

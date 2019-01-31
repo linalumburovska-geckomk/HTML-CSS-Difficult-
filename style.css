@@ -216,6 +216,8 @@ footer {
     height: 70px;
     color: rgba(0, 0, 0, 0.54);
     display: block;
+    width: 1905px;
+    margin-left: -10px;
 }
 
 .graybar {
@@ -259,6 +261,10 @@ a{
     font-size: small;
 }
 
+.place strong{
+    color: black;
+}
+
 .precise{
     color: #666666;
     font-size: small;
@@ -267,4 +273,14 @@ a{
 .precise:hover{
     cursor: pointer;
     color: black;
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: -15px;
 }

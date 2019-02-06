@@ -1,24 +1,24 @@
-body{
+body {
     color: black;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.lineTopLinks{
+header {
     position: absolute;
     top: 16px;
     width: 99%;
     margin-top: 5px;
 }
 
-.googleLogo img{
+.googleLogo img {
     height: 30px;
     width: 92px;
     position: absolute;
     padding: 4px 28px 0 30px;
 }
 
-.navbar{
+nav {
     display: flex;
     padding-left: 30px;
     padding-right: 30px;
@@ -26,41 +26,40 @@ body{
     justify-content: flex-end;
 }
 
-
-.topImages{
+.topImages {
     min-width: 90px;
     display: flex;
 }
 
-.icon img{
+.icon img {
     cursor: pointer;
     vertical-align: middle;
     height: 30px;
     width: 30px;
 }
 
-.notifications{
+.notifications {
     padding: 0 0 0 15px;
 }
 
-.notifications img{
+.notifications img {
     cursor: pointer;
     vertical-align: middle;
     height: 30px;
     width: 30px;
 }
 
-.signin{
+.signin {
     display: flex;
 }
 
-.signin img{
+.signin img {
     cursor: pointer;
     height: 30px;
     width: 30px;
 }
 
-.form{
+.form {
     position: absolute;
     background: #fff;
     display: flex;
@@ -74,41 +73,41 @@ body{
     padding-left: 20px;
 }
 
-.form:hover{
+.form:hover {
     box-shadow: 0 2px 2px 2px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
-.form:focus{
+.form:focus {
     outline: none;
 }
 
-.microphone, .search{
+.microphone, .search {
     position: relative;
     float: left;
     cursor: pointer;
 }
 
-.microphone{
+.microphone {
     height: 25px;
     width: 22px;
     margin-left: 695px;
     margin-top: 13px;
 }
 
-.search{
+.search {
     margin-left: 22px;
     height: 20px;
     width: 18px;
     margin-top: 13px;
 }
 
-.menu{
+.menu {
     margin-top: 82px;
     height: 40px;   
     border-bottom: solid 1px #ededed;
 }
 
-.all{
+.all {
    color: #4285f4;
    font-weight: bold;
    border-bottom: solid 3px #4285f4;
@@ -117,7 +116,7 @@ body{
    padding-right: 16px;
 }
 
-.other{
+.other {
    position: relative;
    left: 77px;
    top: 10px;
@@ -128,22 +127,22 @@ body{
    display: inline-block;
 }
 
-.other:hover{
+.other:hover {
     color: black;
 }
 
-.settings{
+.settings {
     margin-left: 110px;
 }
 
-.results p{
+.results p {
     height: 43px;
     font-size: small;
     color: gray;
     padding-top: 5px;
     margin-left: 160px;
 }
-.searchResult{
+.searchResult {
     color: #1a0dab;
     text-decoration: none;
     font-weight: normal;
@@ -151,11 +150,11 @@ body{
     font-size:18px;
 }
 
-h3{
+h3 {
     margin-top: -20px;
 }
 
-.link{
+.link {
     position: relative;
     line-height: 30px;
     color: #006621;
@@ -166,7 +165,7 @@ h3{
     word-wrap: break-word;
 }
 
-.description{
+.description {
     font-size: 13px;
     color: #545454;
     line-height: 1.4;
@@ -177,19 +176,14 @@ h3{
     margin-bottom: 45px;
 }
 
-
-
-
-
-
-.google{
+.google {
     position: relative;
     left: 300px;
     cursor: pointer;
     width: 1000px;
 }
 
-.g{
+.g {
     background: url(https://www.google.com/images/nav_logo242.png) no-repeat;
     background-position: -24px 0;
     width: 25px;
@@ -219,18 +213,18 @@ h3{
     background-position: -96px 0;
 }
 
-.one{
+.one {
     margin-left: 30px;
     color: black !important;
 }
 
-.number, .nextNext{
+.number, .nextNext {
     padding-left: 7px;
     font-size: small;
     color: #4285f4;
 }
 
-.next{
+.next {
     background: url(https://www.google.com/images/nav_logo242.png) no-repeat;
     background-position: -153px 0;
     width: 19px;
@@ -265,45 +259,45 @@ footer {
     margin-left: 160px;
 }
 
-.leftLinks{
+.leftLinks {
     float: left;
     margin-left: 160px;
     font-size: 10pt;
 }
 
-a{
+a {
     color: #666666;
     text-decoration: none;
 }
 
-.vertical{
+.vertical {
     margin-left: 15px;
     color: #666666;
     margin-top: 10px;
 }
 
-.place{
+.place {
     margin-left: 15px;
     margin-top: 10px;
     color: #666666;
     font-size: small;
 }
 
-.place strong{
+.place strong {
     color: black;
 }
 
-.precise{
+.precise {
     color: #666666;
     font-size: small;
 }
 
-.precise:hover{
+.precise:hover {
     cursor: pointer;
     color: black;
 }
 
-.circle{
+.circle {
     height: 10px;
     width: 10px;
     background-color: #bbb;
@@ -312,3 +306,11 @@ a{
     margin-left: 10px;
     margin-right: -15px;
 } 
+
+.point {
+    cursor: pointer;
+}
+
+.leftMargin {
+    margin-left: 20px;
+}
